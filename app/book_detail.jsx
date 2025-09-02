@@ -26,10 +26,10 @@ const BookDetail = () => {
 
   const fetchBook = async () => {
     try {
-      const response = await fetch(`http://10.0.15.34:3000/api/books/${id}`);
+      const response = await fetch(`http://192.168.87.217:3000/books/${id}`);
       const data = await response.json();
-      setBook(data.book);
-      setFormData(data.book);
+      setBook(data);
+      setFormData(data);
     } catch (error) {
       console.error("Error fetching book details:", error);
       Alert.alert("Error", "Failed to fetch book details");
@@ -48,7 +48,7 @@ const BookDetail = () => {
   const handleUpdate = async () => {
     setUpdating(true);
     try {
-      const response = await fetch(`http://10.0.15.34:3000/api/books/${id}`, {
+      const response = await fetch(`http://192.168.87.217:3000/books/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +63,7 @@ const BookDetail = () => {
       if (response.ok) {
         Alert.alert("Success", "Book updated successfully");
         setEditing(false);
-        fetchBook(); // Refresh data
+        fetchBook();
       } else {
         throw new Error("Failed to update book");
       }
