@@ -10,6 +10,6 @@ npm run server
 npx expo start  
 
 ถ้า error
-ConfigError: Cannot determine the project's Expo SDK version because the module `expo` is not installed. Install it with `npm install expo` and try again.
+[[ConfigError: Cannot determine the project's Expo SDK version because the module `expo` is not installed. Install it with `npm install expo` and try again.]]
 ติดตั้ง
 npm install expo
