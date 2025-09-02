@@ -1,12 +1,10 @@
 # Book-CRUD
 
 
-npm install expo
-
-VSCODE terminal 1 เพื่อรัน db.json (ข้อมูลหนังสือ)
+[1] VSCODE terminal 1 เพื่อรัน db.json (ข้อมูลหนังสือ)
 npm run server
 
-สร้าง terminal 2
+[2] สร้าง terminal 2
 npx expo start  
 
 ถ้า error
