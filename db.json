@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "อะจึกกึ๋ย ภาค1",
+      "author": "ไม่รู้",
+      "description": "หนังสือนิยาย",
+      "genre": "กำลังภายใน",
+      "year": 2024,
+      "price": 450,
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "อะไรสักอย่าง",
+      "author": "ไม่รู้ๆๆๆๆ",
+      "description": "อยากนอนแล้ว",
+      "genre": "บู้",
+      "year": 2023,
+      "price": 350,
+      "available": true
+    },
+    {
+      "id": "e282",
+      "title": "Jssj",
+      "author": "Shs",
+      "description": "Jsj",
+      "genre": "Suus",
+      "year": 4664,
+      "price": 4646,
+      "available": true
+    }
+  ]
+}
