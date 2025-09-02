@@ -11,3 +11,7 @@ npx expo start
 [[ConfigError: Cannot determine the project's Expo SDK version because the module `expo` is not installed. Install it with `npm install expo` and try again.]]
 ติดตั้ง
 npm install expo
+
+
+ตรง fetch fetch(`http://
+ให้ใส่ IP จาก ipconfig
