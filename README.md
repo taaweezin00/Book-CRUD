@@ -13,5 +13,5 @@ npx expo start
 npm install expo
 
 
-ตรง fetch fetch(`http://
-ให้ใส่ IP จาก ipconfig
+ตรง book.jsx,book_new.jsx,book_detail.js  fetch(`http://
+ให้ใส่ IP จาก ipconfig จากเครื่อง
